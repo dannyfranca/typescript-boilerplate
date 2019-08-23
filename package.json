@@ -1,0 +1,94 @@
+{
+  "name": "@dannyfranca/typescript-boilerplate",
+  "version": "0.3.0",
+  "description": "TypeScript starting point handsome, clean and easy with test, CI, code coverage, documentation and git hooks. ",
+  "license": "MIT",
+  "author": {
+    "name": "Danny França",
+    "email": "contato@dannyfranca.com"
+  },
+  "contributors": [
+    {
+      "name": "Danny França <contato@dannyfranca.com>"
+    }
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/dannyfranca/typescript-boilerplate",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "start-test 1234 cypress:run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "dev": "cross-env NODE_ENV=test start-test 1234 cypress:open",
+    "start": "cross-env NODE_ENV=development parcel serve --no-cache public/index.html",
+    "build": "cross-env NODE_ENV=production parcel build public/index.html",
+    "report:coverage": "nyc report --reporter=html",
+    "report:coverage:text": "nyc report --reporter=text",
+    "coverage": "codecov",
+    "type-check": "tsc --noEmit",
+    "doc": "typedoc",
+    "compile": "tsc",
+    "compile:watch": "tsc -w",
+    "compile:types": "tsc --emitDeclarationOnly",
+    "publish": "npm publish --access public"
+  },
+  "keywords": [
+    "typescript",
+    "starter",
+    "template",
+    "boilerplate",
+    "library",
+    "node",
+    "typescript-eslint",
+    "parcel",
+    "parcel-bundler",
+    "cypress",
+    "istanbul",
+    "nyc",
+    "travis-ci",
+    "circle-ci",
+    "codecov",
+    "coverage",
+    "husky",
+    "ts",
+    "ts-node",
+    "ci"
+  ],
+  "bugs": {
+    "url": "https://github.com/dannyfranca/typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dannyfranca/typescript-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@cypress/code-coverage": "^1.9.0",
+    "@istanbuljs/nyc-config-typescript": "^0.1.3",
+    "@types/cypress": "^1.1.3",
+    "@types/node": "^12.7.2",
+    "@typescript-eslint/parser": "^2.0.0",
+    "babel-plugin-istanbul": "^5.2.0",
+    "codecov": "^3.5.0",
+    "cross-env": "^5.2.0",
+    "cypress": "^3.4.1",
+    "cypress-promise": "^1.0.2",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-cypress": "^2.6.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.4",
+    "istanbul-lib-coverage": "^2.0.5",
+    "nyc": "^14.1.1",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.18.2",
+    "source-map-support": "^0.5.13",
+    "start-server-and-test": "^1.10.0",
+    "ts-node": "^8.3.0",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {}
+}
