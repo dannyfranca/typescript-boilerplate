@@ -29,7 +29,7 @@
     "report:coverage:text": "nyc report --reporter=text",
     "coverage": "codecov",
     "type-check": "tsc --noEmit",
-    "lint": "eslint src/** --ext .ts,.js --ignore-path .gitignore --fix",
+    "lint": "eslint --ext .ts,.js --ignore-path .gitignore --fix src/**",
     "precommit": "yarn run lint && yarn run type-check",
     "doc": "typedoc",
     "compile": "tsc",
