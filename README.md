@@ -47,9 +47,10 @@ cd {{project_name}}
 yarn
 ```
 
-## Warning
+## Warnings
 
-Experimental environment. Could change many times between versions, at least until v1.0 arrives.
+* Experimental environment. Could change many times between versions, at least until v1.0 arrives.
+* If you don't want to use yarn, change yarn run for npm run in package.json commands and .lintstagedrc
 
 ### Bugs
 
@@ -65,7 +66,7 @@ Circle CI not playing nice right now. More tests needed until a decent starting 
 * Coverage Reports - <a href="https://istanbul.js.org" target="_blank">Istanbul</a>
 * Continuous Integration - <a href="https://circleci.com" target="_blank">CircleCI</a> / <a href="https://travis-ci.com" target="_blank">TravisCI</a>
 * Code Coverage - <a href="https://codecov.io" target="_blank">Codecov</a>
-* Git Hooks - <a href="https://github.com/typicode/husky" target="_blank">Husky</a>
+* Git Hooks - <a href="https://github.com/typicode/husky" target="_blank">Husky</a> + <a href="https://github.com/okonet/lint-staged" target="_blank">lint-staged</a>
 
 ## Usage
 
