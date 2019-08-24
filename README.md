@@ -11,11 +11,11 @@
 </a>
 
 <a href="https://travis-ci.com/dannyfranca/typescript-boilerplate" target="_blank">
-    <img src="https://img.shields.io/travis/project/github/dannyfranca/typescript-boilerplate?style=svg?style=flat-square&logo=travis" />
+    <img src="https://img.shields.io/travis/dannyfranca/typescript-boilerplate?style=flat-square&logo=travis" />
 </a>
 
 <a href="https://circleci.com/gh/dannyfranca/typescript-boilerplate" target="_blank">
-    <img src="https://img.shields.io/circleci/project/github/dannyfranca/typescript-boilerplate?style=svg?style=flat-square&logo=circleci" />
+    <img src="https://img.shields.io/circleci/project/github/dannyfranca/typescript-boilerplate?style=flat-square&logo=circleci" />
 </a>
 
 <a href="https://codecov.io/gh/dannyfranca/typescript-boilerplate" target="_blank">
