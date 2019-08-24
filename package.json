@@ -55,8 +55,9 @@
     "codecov",
     "coverage",
     "husky",
+    "lint-staged",
+    "typedoc",
     "ts",
-    "ts-node",
     "ci"
   ],
   "bugs": {
