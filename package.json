@@ -65,7 +65,7 @@
   },
   "homepage": "https://github.com/dannyfranca/typescript-boilerplate#readme",
   "devDependencies": {
-    "@babel/core": "^7.0.0-0",
+    "@babel/core": "^7.5.5",
     "@babel/plugin-transform-runtime": "^7.5.5",
     "@babel/preset-typescript": "^7.3.3",
     "@cypress/code-coverage": "^1.9.0",
