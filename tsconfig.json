@@ -2,7 +2,7 @@
   /* Basic Options */
   "compilerOptions": {
     //    "incremental": true,
-    "target": "es6",
+    "target": "es5",
     "module": "commonjs",
     "lib": [
       "es5",
@@ -16,7 +16,7 @@
     //    "jsx": "preserve",
     "declaration": true,
     //    "declarationMap": true,
-    //    "sourceMap": true,
+    "sourceMap": true,
     //    "outFile": "./",
     "outDir": "./lib",
     //     "rootDir": ".",
@@ -44,7 +44,10 @@
     "baseUrl": ".",
     //    "paths": {},
     //    "rootDirs": [],
-    //    "typeRoots": [],
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ],
     //    "types": [],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -54,17 +57,10 @@
     //    "mapRoot": "",
     //    "inlineSourceMap": true,
     //    "inlineSources": true
-
-    "experimentalDecorators": true
-    //    "emitDecoratorMetadata": true
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": [
     "src"
-  ],
-  "exclude": [
-    "test",
-    "node_modules",
-    "dist",
-    "lib"
   ]
 }
