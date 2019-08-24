@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/npm/v/@dannyfranca/typescript-boilerplate/latest.svg?style=flat-square&logo=npm" />
 </a>
 
-<a href="https://img.shields.io/travis/project/github/dannyfranca/typescript-boilerplate?style=svg?style=flat-square&logo=travis" target="_blank">
+<a href="https://travis-ci.com/dannyfranca/typescript-boilerplate" target="_blank">
     <img src="https://img.shields.io/travis/project/github/dannyfranca/typescript-boilerplate?style=svg?style=flat-square&logo=travis" />
 </a>
 
