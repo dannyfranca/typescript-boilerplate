@@ -52,10 +52,6 @@ yarn
 * Experimental environment. Could change many times between versions, at least until v1.0 arrives.
 * If you don't want to use yarn, change yarn run for npm run in package.json commands and .lintstagedrc
 
-### Bugs
-
-Circle CI not playing nice right now. More tests needed until a decent starting point with TypeScript, Cypress and CI (Circle or Travis)
-
 ## Libs
 
 * Compiler - <a href="https://www.typescriptlang.org" target="_blank">TypeScript</a>

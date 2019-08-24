@@ -1,6 +1,6 @@
 {
   "name": "@dannyfranca/typescript-boilerplate",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "TypeScript starting point handsome, clean and easy with test, CI, code coverage, documentation and git hooks. ",
   "license": "MIT",
   "author": {
