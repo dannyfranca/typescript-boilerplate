@@ -26,10 +26,6 @@
     <img src="https://david-dm.org/dannyfranca/typescript-boilerplate/status.svg?style=flat-square" />
 </a>
 
-<a href="https://standardjs.com" target="_blank">
-    <img src="https://img.shields.io/badge/code_style-standard-brightgreen?style=flat-square" />
-</a>
-
 </p>
 
 ## Getting Started
