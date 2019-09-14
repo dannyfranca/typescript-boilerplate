@@ -11,11 +11,11 @@
 </a>
 
 <a href="https://travis-ci.com/dannyfranca/typescript-boilerplate" target="_blank">
-    <img src="https://img.shields.io/travis/project/github/dannyfranca/typescript-boilerplate?style=svg?style=flat-square&logo=travis" />
+    <img src="https://img.shields.io/travis/dannyfranca/typescript-boilerplate?style=flat-square&logo=travis" />
 </a>
 
 <a href="https://circleci.com/gh/dannyfranca/typescript-boilerplate" target="_blank">
-    <img src="https://img.shields.io/circleci/project/github/dannyfranca/typescript-boilerplate?style=svg?style=flat-square&logo=circleci" />
+    <img src="https://img.shields.io/circleci/project/github/dannyfranca/typescript-boilerplate?style=flat-square&logo=circleci" />
 </a>
 
 <a href="https://codecov.io/gh/dannyfranca/typescript-boilerplate" target="_blank">
@@ -24,6 +24,10 @@
 
 <a href="https://david-dm.org/dannyfranca/typescript-boilerplate" target="_blank">
     <img src="https://david-dm.org/dannyfranca/typescript-boilerplate/status.svg?style=flat-square" />
+</a>
+
+<a href="https://www.codacy.com/manual/dannyfranca/typescript-boilerplate" target="_blank">
+    <img src="https://img.shields.io/codacy/grade/addca1007fb044c3a994c7e0ec504092?style=flat-square&logo=codacy" />
 </a>
 
 </p>
